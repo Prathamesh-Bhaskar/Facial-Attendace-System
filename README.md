@@ -29,8 +29,7 @@ Open your web browser and navigate to http://localhost:8000
 ## Technical Details
 - **Siamese Networks:** Utilized for accurate facial recognition by learning embeddings that map input images to latent representations, enabling similarity comparison.
 - **User Interface (UI):** Developed using HTML, CSS, and JavaScript, with Flask as the backend framework, to create an intuitive and user-friendly real-time dashboard.
-- **Voice Activation:** Implemented using speech recognition libraries and integrated with the camera activation functionality for hands-free operation.
-- **Database Management:** Utilized SQLite database for storing attendance records and managing user data.
+- **Database Management:** Utilized Firebase database for storing attendance records and managing user data.
 
 ## Contributing
 Contributions are welcome! If you have any ideas, enhancements, or bug fixes, please fork the repository and submit a pull request.
