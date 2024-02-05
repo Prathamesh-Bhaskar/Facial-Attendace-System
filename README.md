@@ -1,40 +1,27 @@
-# Face Recognition Attendance System
+# Siamese Facial Recognition
 
-## Overview
-The Face Recognition Attendance System is a comprehensive solution designed for automated attendance tracking in educational settings. Utilizing advanced deep learning algorithms, including Siamese networks, this system offers real-time recognition of individuals, enabling efficient and accurate attendance management. Key features include a real-time dashboard for monitoring attendance status, voice-activated camera activation, automatic database entry for unrecognized individuals with admin approval, and seamless integration with Raspberry Pi for enhanced portability and computational capabilities.
+## Description
+
+This project is aimed at building a Siamese Neural Network for facial recognition using TensorFlow and OpenCV. The Siamese architecture is particularly useful for tasks involving verification or identification of objects that don't fall into distinct categories. In this case, we're focusing on facial recognition, where we want to determine whether two facial images belong to the same person or not.
 
 ## Features
-- **Facial Recognition:** Automated attendance tracking through facial recognition technology, utilizing Siamese networks for accurate similarity learning.
-- **Real-Time Dashboard:** Web-based dashboard for monitoring attendance status, generating reports, and managing system settings.
-- **Automatic Database Entry:** Unrecognized individuals captured on video are added to the database with admin approval, ensuring comprehensive attendance records.
+
+- Collect positive and negative image pairs for training
+- Implement a Siamese Neural Network for learning embeddings
+- Train the model to recognize similarities between facial images
+- Evaluate the model's performance on a test dataset
+- Provide utilities to capture images from a webcam for dataset collection
+
+## Dependencies
+
+- Python 3.x
+- TensorFlow
+- OpenCV
+- Matplotlib
 
 ## Installation
-1. **Clone the Repository:**
+
+1. Clone the repository:
+
    ```bash
-   git clone https://github.com/Prathamesh-Bhaskar/Facial-Attendace-System
-## Install Dependencies:
-   ```bash
-pip install -r requirements.txt
-# Usage
-```markdown
-## Usage
-1. **Run the Main Script:**
-   ```bash
-   python main.py
-
-## Configuration
-- Modify the `config.py` file to adjust settings such as database connection details, camera settings, and voice recognition parameters.
-## Access the Real-Time Dashboard:
-Open your web browser and navigate to http://localhost:8000
-## Technical Details
-- **Siamese Networks:** Utilized for accurate facial recognition by learning embeddings that map input images to latent representations, enabling similarity comparison.
-- **User Interface (UI):** Developed using HTML, CSS, and JavaScript, with Flask as the backend framework, to create an intuitive and user-friendly real-time dashboard.
-- **Database Management:** Utilized Firebase database for storing attendance records and managing user data.
-
-## Contributing
-Contributions are welcome! If you have any ideas, enhancements, or bug fixes, please fork the repository and submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
+   git clone https://github.com/your-username/your-repo.git
