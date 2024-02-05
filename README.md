@@ -12,7 +12,7 @@ The Face Recognition Attendance System is a comprehensive solution designed for 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Prathamesh-Bhaskar/Facial-Attendace-System
-# Install Dependencies:
+## Install Dependencies:
    ```bash
 pip install -r requirements.txt
 # Usage
