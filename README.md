@@ -25,3 +25,30 @@ This project is aimed at building a Siamese Neural Network for facial recognitio
 
    ```bash
    git clone https://github.com/your-username/your-repo.git
+
+   ## Usage
+
+### Capture images to build the dataset:
+- Run the script `collect_images.py` to capture positive and negative image pairs. Use 'a' to capture an anchor image, 'p' for a positive image, and 'q' to quit.
+- Ensure that you capture enough images to build a diverse dataset for training.
+
+### Train the Siamese Neural Network:
+- Run the script `train.py` to train the Siamese network using the collected dataset.
+- Adjust hyperparameters and network architecture as needed for better performance.
+
+### Evaluate the model:
+- Use the test dataset to evaluate the performance of the trained model.
+- Run the script `evaluate.py` to assess the model's accuracy and other metrics.
+
+## Credits
+
+- This project was inspired by [reference to the original work, if any].
+
+## License
+
+[Include the license information here.]
+
+## Contributors
+
+- Prathamesh Bhaskar, Anup Ghunawat
+
